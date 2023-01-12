@@ -1,0 +1,166 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    /* border: 1px solid red; */
+}
+body{
+    background-image: url(./Images/back.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* button:hover{
+    text-transform: uppercase;
+} */
+/* header{
+    display: flex;
+    background-color: blueviolet;
+    font-weight: bold;
+    width: 100%;
+    padding: 10px;
+    justify-content: center;
+    position: sticky;
+} */
+.btn_login{
+    background-color: rgb(237, 26, 26);
+    float:right;
+    /* align-items: flex-end; */
+    /* padding: 5px; */
+    border-radius: 9px;
+    font-weight: bold;
+    margin-left: 80%;
+    cursor: pointer;
+}
+header h2{
+    float: right;
+    display: inline;
+    align-items: center;
+}
+
+
+
+nav{
+    display: flex;
+    background-color: rgb(26, 43, 43);
+    width: 100vw;
+    height: 10vh;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    
+}
+nav div  {
+    /* padding: 10px ; */
+    color: rgb(214, 130, 88);
+    font-family: cursive;
+}
+nav div ul{
+    align-items: center;
+    display: inline;
+}
+
+nav div ul li{
+    display: inline;
+    margin: 35px;
+    font-size: 30px;
+}
+nav div ul li a{
+    color: wheat;
+    justify-content: center;
+    /* margin: 7px; */
+}
+nav div h3{
+    font-size: 1.3rem;
+    color: orange;
+    font-family: cursive;
+    display: inline;
+}
+/* header .srch{
+    float: right;
+    margin-left: 75vw;
+    align-items: center;
+    margin-bottom: 20px;
+    align-items: flex-end;
+} */
+/* div .btn{
+    margin: 15px;
+} */
+
+a:hover{
+    text-shadow: 5px red;
+    color: yellowgreen;
+    border-radius: 2px;
+    transition: 0.3;
+}
+
+/* img{
+    width: 100vw;
+}
+div input{
+
+    justify-content: right;
+}
+input{
+    background-color:transparent;
+    color: rgb(218, 249, 245);
+    background-color: rgb(115, 137, 135);
+    border-radius: 9px;
+    box-sizing: content-box;
+    border: none;
+    padding: 3px;
+    border-style: double;
+    font-size: 0.9rem;
+}
+.btn{
+    border-radius: 6px;
+    background-color: rgb(219, 161, 212);
+    padding: 3px;
+    cursor: pointer;
+}
+.header .btn_login{
+    float: right;
+    margin-top: 3px;
+} */
+
+.container{
+    box-sizing: border-box;
+    width: 420px;
+    height:  auto;
+    background-color: #A1A1A1;
+    margin-top: 400px;
+    margin-left: 30px;
+    border-radius: 3px;
+    border: 0.5px solid black;
+    color: white;
+    font-family: cursive, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.container div h2{
+    color: red;
+    padding: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container div .hlo{
+    padding: 0px 25px 15px;
+    font-size: 25px;
+    color: #3D0303;
+}
+.container div .intro{
+    padding: 0 39px 20px;
+}
+.name{
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+
+.clg{
+    color: #033E3E;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+span b{
+    color: rgb(246, 81, 122);
+}
+
