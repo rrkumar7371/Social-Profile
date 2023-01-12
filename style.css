@@ -40,10 +40,10 @@ header h2{
 
 
 nav{
+    height: auto;
+    width: 100%;
     display: flex;
     background-color: rgb(26, 43, 43);
-    width: 100vw;
-    height: 10vh;
     justify-content: center;
     position: fixed;
     top: 0;
